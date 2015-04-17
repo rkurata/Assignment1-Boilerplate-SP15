@@ -1,0 +1,25 @@
+<body>
+	<div class = "button" align="center">
+		<a href="/login"> <img src="https://cdn4.iconfinder.com/data/icons/basic-ui-elements/700/09_home-512.png" width="50" height="50" /></a>
+			
+		<a href="/feed"> <img src="http://nationalevents.cityofhope.org/images/content/pagebuilder/instagram.png" width="50" height="50" /></a>
+			
+		<a href="/auth/facebook"> <img src="http://nationalevents.cityofhope.org/images/content/pagebuilder/facebook-icon.png" width="50" height="50" /></a>
+		
+	</div>
+
+	<div id="info">
+
+		<h4>Instagram Account Info For</h4><h2> {{user.displayName}} </h2>
+		<p>ID: {{user.id}}</p>
+		<p>Username: {{user.username}}</p>
+
+	</div>
+
+<h1 id="title">Where would you like to go next?</h1>
+
+	<div align="center">
+		<button class="nav"  onclick="window.location.href='/feed'">Feed</button>
+	</div>
+</body>	
+
