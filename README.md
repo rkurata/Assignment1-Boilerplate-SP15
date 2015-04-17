@@ -1,5 +1,10 @@
 Instagram Example
 ===========
+Assignment 1
+Rachel Kurata
+Doris Liu
+Cogs 121
+SP15
 
 Discussion 1:
 
