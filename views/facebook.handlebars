@@ -1,0 +1,22 @@
+<div class = "button" align="center"><div class = "button" align="center">
+	
+
+	<a href="/login"> <img src="https://cdn4.iconfinder.com/data/icons/basic-ui-elements/700/09_home-512.png" width="50" height="50" /></a>
+
+	<a href="/auth/instagram"> <img src="http://nationalevents.cityofhope.org/images/content/pagebuilder/instagram.png" width="50" height="50" /></a>
+
+	<a href="/auth/facebook"> <img src="http://nationalevents.cityofhope.org/images/content/pagebuilder/facebook-icon.png" width="50" height="50" /></a>
+
+</div>
+
+{{#each facebook}}
+		<div class="feed" id="photos">
+			<center> <img src="{{url}}" class="img-responsive" class="img hashtag-img"><br>
+			  <div id="caption">
+			  	<p>{{caption}}</p></center>
+			  </div>
+			  
+		 </div>
+	{{/each}}
+
+<center><button class="nav"  onclick="window.location.href='/fblike'">Likes</button></center><Br><Br>
