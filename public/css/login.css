@@ -3,6 +3,7 @@ body {
   color: #656A94;
   background-image: url("http://www.inkspotcreative.com/wp-content/uploads/2013/07/blurred-background-7.jpg");
   background-attachment:fixed;
+  background-size: 100% 100%;
   width: 100%;
   height: 100%;
   margin-left: auto;
